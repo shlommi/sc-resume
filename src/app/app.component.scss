@@ -2,4 +2,13 @@
     &__header {
         overflow: hidden;
     }
+
+    &__main {
+        margin-left: 300px;
+
+        @media screen and (max-width: 991px) {
+            margin-left: 0;
+        }
+    }
+
 }

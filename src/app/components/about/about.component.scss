@@ -1,0 +1,28 @@
+@import "../../styles/vars";
+
+.about {
+
+
+    &__heading {
+        margin-top: 2rem;
+        color: $dark_green;
+        font-family: $font_black;
+        font-size: 1.75rem;
+
+    }
+
+    &__list {
+
+        ul {
+            list-style-type: square;
+
+            li::marker {
+                font-size: 150%;
+                color: $dark_green;
+            }
+        }
+
+    }
+
+
+}

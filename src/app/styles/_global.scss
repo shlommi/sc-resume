@@ -1,1 +1,38 @@
-@import "vars.scss";
+@import "./vars";
+
+
+
+section {
+    padding: 2rem 0;
+}
+
+.seperator {
+    display: inline-block;
+    width: 5rem;
+    position: relative;
+    margin: -0.625rem 0 1.25rem;
+    border-bottom: 2px solid $green ;
+}
+
+p {
+    font-family: $font_regular;
+    font-size: $font_size_md;
+    color: $textColor;
+    margin-top: 1.25rem;
+    line-height: 1.55;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    line-height: 1.1;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+li {
+    font-family: $font-regular;
+    font-size: 19.44px;
+    ;
+}
