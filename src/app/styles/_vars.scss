@@ -3,7 +3,6 @@
 $textColor :#1a2925;
 $green :#2F7A79;
 $dark_green :#133030;
-$light_green :#B4E2E2;
 $white_green :#F2FAFA;
 $background_white :#FEFFFF;
 
@@ -35,3 +34,4 @@ sans-serif;
 // 	ANIMATION
 
 $transition_time :300ms;
+$cubic_style: cubic-bezier(0.165, 0.84, 0.44, 1);

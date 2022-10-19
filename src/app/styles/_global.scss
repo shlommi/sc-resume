@@ -7,11 +7,12 @@ section {
 }
 
 .seperator {
-    display: inline-block;
     width: 5rem;
     position: relative;
-    margin: -0.625rem 0 1.25rem;
-    border-bottom: 2px solid $green ;
+    margin-top: -0.725rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid $green ;
 }
 
 p {
@@ -28,7 +29,25 @@ h3,
 h4 {
     line-height: 1.1;
     -webkit-font-smoothing: antialiased;
+}
 
+.heading {
+    font-size: 3rem;
+    color: $dark_green;
+    margin-top: 1rem;
+    font-family: $font_black;
+    font-weight: 900;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.sub-heading {
+    font-size: 1.5rem;
+    color: $dark_green;
+    margin: 1.5rem 0 1.5rem 0;
+    font-family: $font_black;
+    font-weight: 900;
+    line-height: 1.1;
 }
 
 li {

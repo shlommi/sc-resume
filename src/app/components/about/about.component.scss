@@ -1,7 +1,9 @@
 @import "../../styles/vars";
+@import '../../styles/global';
 
 .about {
 
+    padding: 0 3rem;
 
     &__heading {
         margin-top: 2rem;
@@ -15,6 +17,10 @@
 
         ul {
             list-style-type: square;
+
+            li {
+                padding: 0.375rem;
+            }
 
             li::marker {
                 font-size: 150%;
