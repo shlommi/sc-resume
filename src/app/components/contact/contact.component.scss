@@ -1,0 +1,46 @@
+@import "../../styles/global";
+@import "../../styles/vars";
+
+
+svg {
+    width: 2rem;
+    height: 2rem;
+    fill: $dark_green;
+    margin: 0 1rem 0 0;
+}
+
+.contact {
+    &__info {
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                font-size: 2rem;
+                text-align: center;
+
+                @media screen and (max-width:1600px) {
+                    font-size: 1.3rem;
+                }
+            }
+
+            h4 {
+                font-size: 22px;
+                display: inline-block;
+                padding: 0 0 60px;
+            }
+
+            a {
+                text-decoration: none;
+                color: $dark_green;
+            }
+        }
+    }
+
+    ::ng-deep {
+        mat-form-field {
+            width: 100%;
+        }
+    }
+}
