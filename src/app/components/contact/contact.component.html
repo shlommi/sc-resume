@@ -40,38 +40,43 @@
             </div>
             <!-- Form -->
             <div class="col-lg-8 ">
-                <form>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <!-- Name -->
+                <div class="contact__form">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <!-- Name -->
+                                <mat-form-field class="example-full-width" appearance="fill">
+                                    <mat-label>Name</mat-label>
+                                    <input matInput required placeholder="Your Name">
+                                </mat-form-field>
+                            </div>
+                            <div class="col-md-6">
+                                <!-- Email -->
+                                <mat-form-field class="example-full-width" appearance="fill">
+                                    <mat-label>Email</mat-label>
+                                    <input matInput required placeholder="Your Email">
+                                </mat-form-field>
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <!-- Subject -->
                             <mat-form-field class="example-full-width" appearance="fill">
-                                <mat-label>Name</mat-label>
-                                <input matInput required placeholder="Your Name">
+                                <mat-label>Subject</mat-label>
+                                <input matInput required placeholder="Subject">
                             </mat-form-field>
                         </div>
-                        <div class="col-md-6">
-                            <!-- Email -->
+                        <div class="mt-3">
+                            <!-- Message -->
                             <mat-form-field class="example-full-width" appearance="fill">
-                                <mat-label>Email</mat-label>
-                                <input matInput required placeholder="Your Email">
+                                <mat-label>Message</mat-label>
+                                <textarea matInput required placeholder="lets talk..."></textarea>
                             </mat-form-field>
                         </div>
-                    </div>
-                    <div class="mt-3">
-                        <!-- Subject -->
-                        <mat-form-field class="example-full-width" appearance="fill">
-                            <mat-label>Subject</mat-label>
-                            <input matInput required placeholder="Subject">
-                        </mat-form-field>
-                    </div>
-                    <div class="mt-3">
-                        <!-- Message -->
-                        <mat-form-field class="example-full-width" appearance="fill">
-                            <mat-label>Message</mat-label>
-                            <textarea matInput required placeholder="lets talk..."></textarea>
-                        </mat-form-field>
-                    </div>
-                </form>
+                        <div class="text-center my-3">
+                            <button mat-raised-button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
