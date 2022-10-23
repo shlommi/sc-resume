@@ -41,20 +41,20 @@
             <!-- Form -->
             <div class="col-lg-8 ">
                 <div class="contact__form">
-                    <form netlify>
+                    <form name="contact" method="POST" data-netlify="true">
                         <div class="row">
                             <div class="col-md-6">
                                 <!-- Name -->
                                 <mat-form-field class="example-full-width" appearance="fill">
                                     <mat-label>Name</mat-label>
-                                    <input matInput required placeholder="Your Name">
+                                    <input name="name" matInput required placeholder="Your Name">
                                 </mat-form-field>
                             </div>
                             <div class="col-md-6">
                                 <!-- Email -->
                                 <mat-form-field class="example-full-width" appearance="fill">
                                     <mat-label>Email</mat-label>
-                                    <input matInput required placeholder="Your Email">
+                                    <input name="email" matInput required placeholder="Your Email">
                                 </mat-form-field>
                             </div>
                         </div>
@@ -62,14 +62,14 @@
                             <!-- Subject -->
                             <mat-form-field class="example-full-width" appearance="fill">
                                 <mat-label>Subject</mat-label>
-                                <input matInput required placeholder="Subject">
+                                <input name="subject" matInput required placeholder="Subject">
                             </mat-form-field>
                         </div>
                         <div class="mt-3">
                             <!-- Message -->
                             <mat-form-field class="example-full-width" appearance="fill">
                                 <mat-label>Message</mat-label>
-                                <textarea matInput required placeholder="lets talk..."></textarea>
+                                <textarea name="message" matInput required placeholder="lets talk..."></textarea>
                             </mat-form-field>
                         </div>
                         <div class="text-center my-3">
