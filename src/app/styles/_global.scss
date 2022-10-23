@@ -3,7 +3,12 @@
 
 
 section {
-    padding: 2rem 0;
+
+    padding: 0 1.5rem;
+
+    @media screen and (min-width: 591px) {
+        padding: 2rem 3rem;
+    }
 }
 
 .seperator {
