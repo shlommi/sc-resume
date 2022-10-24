@@ -41,7 +41,7 @@
             <!-- Form -->
             <div class="col-lg-8 ">
                 <div class="contact__form">
-                    <form name="contact" method="POST" data-netlify="true">
+                    <form name="contact" method="POST" netlify>
                         <div class="row">
                             <div class="col-md-6">
                                 <!-- Name -->
@@ -72,9 +72,7 @@
                                 <textarea name="message" matInput required placeholder="lets talk..."></textarea>
                             </mat-form-field>
                         </div>
-                        <div class="text-center my-3">
-                            <button mat-raised-button type="submit">Submit</button>
-                        </div>
+                        <button class="text-center my-3" mat-raised-button type="submit">Submit</button>
                     </form>
                 </div>
             </div>
