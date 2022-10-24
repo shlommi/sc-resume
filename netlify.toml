@@ -3,6 +3,6 @@
     publish = "dist/"
     command  = "npm run build"
 [[redirects]]
-    from = "/*"    
+    from = "https://shlomi-cohen-resume.netlify.app/*"    
     to = "/index.html"
     status = 200
