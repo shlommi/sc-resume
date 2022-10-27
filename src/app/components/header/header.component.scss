@@ -33,12 +33,17 @@
     }
 
     &__links {
-        .d-flex {
+
+        &-icons {
+            text-align: center;
+            display: flex;
             justify-content: space-evenly;
 
             svg {
                 fill: $white_green;
                 transition: $transition_time all ease;
+                width: 26px;
+                height: 26px;
             }
 
             svg:hover {
@@ -46,6 +51,7 @@
             }
         }
     }
+
 
     &__nav {
         nav {
