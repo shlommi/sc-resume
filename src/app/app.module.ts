@@ -8,7 +8,6 @@ import { MaterialModule } from './material/material.module';
 import { HeaderComponent } from './components/header/header.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { AboutComponent } from './components/about/about.component';
-import { ResumeComponent } from './components/resume/resume.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 
 @NgModule({
@@ -17,7 +16,6 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
     HeaderComponent,
     HeroComponent,
     AboutComponent,
-    ResumeComponent,
     PortfolioComponent
   ],
   imports: [
