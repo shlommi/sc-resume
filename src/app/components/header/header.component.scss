@@ -29,34 +29,14 @@
         height: 200px;
         border-radius: 500px;
         overflow: hidden;
-        margin: 50px auto 10px;
+        margin: 50px auto 18px;
     }
 
-    &__links {
-
-        &-icons {
-            text-align: center;
-            display: flex;
-            justify-content: space-evenly;
-
-            svg {
-                fill: $white_green;
-                transition: $transition_time all ease;
-                width: 26px;
-                height: 26px;
-            }
-
-            svg:hover {
-                fill: $green;
-            }
-        }
-    }
 
 
     &__nav {
         nav {
 
-            margin-top: 30px;
 
             ul {
                 list-style: none;
